@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Resource name="jdbc/JobTracker"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@//fqdn:1521/database"
+              username="bundler"
+              password="bundler"
+              maxActive="100"
+              maxIdle="20"
+              minIdle="5"
+              maxWait="10000" />
+</Context>
+
